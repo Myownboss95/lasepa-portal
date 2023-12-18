@@ -21,7 +21,9 @@ Route::get('/', function () {
 Route::controller(PagesController::class)->group( function () {
     Route::prefix('user')->as('user.')->group(function () {
 
-        Route::get('user-dashboard', 'userDashboard')->name('dashboard');
+        Route::get('dashboard', 'userDashboard')->name('dashboard');
+        Route::get('login', 'userLogin')->name('login');
+        Route::get('register', 'userRegister')->name('login');
         
     });
 });

@@ -12,8 +12,7 @@
                             <div class="d-flex flex-column h-100">
                                 <div class="mb-4 mb-md-5 text-center">
                                     <a href="{{ url('/') }}" class="d-block auth-logo">
-                                        <img src="{{ asset('lineone/images/logo-sm.svg') }}" alt="" height="28">
-                                        <span class="logo-txt">{{ config('app.name') }}</span>
+                                        <img src="{{ asset('lasepalogo.png') }}" alt="" height="28">
                                     </a>
                                 </div>
                                 <div class="auth-content my-auto">
@@ -90,7 +89,7 @@
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a href="{{ route('login.google')}}"
+                                                <a href=""
                                                     class="social-list-item bg-danger text-white border-danger">
                                                     <i class="mdi mdi-google"></i>
                                                 </a>
@@ -99,8 +98,7 @@
                                     </div>
 
                                     <div class="mt-3 text-center">
-                                        <p class="text-muted mb-0"><a href="{{ route('password.request') }}"
-                                                class="text-primary fw-semibold">
+                                        <p class="text-muted mb-0"><a href="" class="text-primary fw-semibold">
                                                 Forgot Password?</a> </p>
                                     </div>
                                     <div class="mt-1 text-center">

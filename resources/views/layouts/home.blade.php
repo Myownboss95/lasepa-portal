@@ -8,25 +8,25 @@
 <title>Biogenix - HTML 5 Template Preview</title>
 
 <!-- Fav Icon -->
-<link rel="icon" href="{{ asset('home/assets/images/favicon.ico')}}" type="image/x-icon">
+<link rel="icon" href="{{ asset('home/images/favicon.ico')}}" type="image/x-icon">
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
 <!-- Stylesheets -->
-<link href="{{ asset('home/assets/css/font-awesome-all.css')}}" rel="stylesheet">
-<link href="{{ asset('home/assets/css/flaticon.css')}}" rel="stylesheet">
-<link href="{{ asset('home/assets/css/owl.css')}}" rel="stylesheet">
-<link href="{{ asset('home/assets/css/bootstrap.css')}}" rel="stylesheet">
-<link href="{{ asset('home/assets/css/jquery.fancybox.min.css')}}" rel="stylesheet">
-<link href="{{ asset('home/assets/css/animate.css')}}" rel="stylesheet">
-<link href="{{ asset('home/assets/css/nice-select.css')}}" rel="stylesheet">
-<link href="{{ asset('home/assets/css/timePicker.css')}}" rel="stylesheet">
-<link href="{{ asset('home/assets/css/jquery-ui.css')}}" rel="stylesheet">
-<link href="{{ asset('home/assets/css/color.css')}}" rel="stylesheet">
-<link href="{{ asset('home/assets/css/style.css')}}" rel="stylesheet">
-<link href="{{ asset('home/assets/css/responsive.css')}}" rel="stylesheet">
+<link href="{{ asset('home/css/font-awesome-all.css')}}" rel="stylesheet">
+<link href="{{ asset('home/css/flaticon.css')}}" rel="stylesheet">
+<link href="{{ asset('home/css/owl.css')}}" rel="stylesheet">
+<link href="{{ asset('home/css/bootstrap.css')}}" rel="stylesheet">
+<link href="{{ asset('home/css/jquery.fancybox.min.css')}}" rel="stylesheet">
+<link href="{{ asset('home/css/animate.css')}}" rel="stylesheet">
+<link href="{{ asset('home/css/nice-select.css')}}" rel="stylesheet">
+<link href="{{ asset('home/css/timePicker.css')}}" rel="stylesheet">
+<link href="{{ asset('home/css/jquery-ui.css')}}" rel="stylesheet">
+<link href="{{ asset('home/css/color.css')}}" rel="stylesheet">
+<link href="{{ asset('home/css/style.css')}}" rel="stylesheet">
+<link href="{{ asset('home/css/responsive.css')}}" rel="stylesheet">
 
 </head>
 
@@ -81,7 +81,7 @@
         <div id="search-popup" class="search-popup">
             <div class="popup-inner">
                 <div class="upper-box clearfix">
-                    <figure class="logo-box pull-left"><a href="index.html"><img src="{{ asset('home/assets/images/logo-7.png')}}" alt=""></a></figure>
+                    <figure class="logo-box pull-left"><a href="index.html"><img src="{{ asset('home/images/logo-7.png')}}" alt=""></a></figure>
                     <div class="close-search pull-right"><i class="fa-solid fa-xmark"></i></div>
                 </div>
                 <div class="overlay-layer"></div>
@@ -104,7 +104,7 @@
         <!-- main header -->
         <header class="main-header header-style-one">
             <div class="logo-box">
-                <figure class="logo"><a href="index.html"><img src="{{ asset('home/assets/images/logo.png')}}" alt=""></a></figure>
+                <figure class="logo"><a href="index.html"><img src="{{ asset('home/images/logo.png')}}" alt=""></a></figure>
             </div>
             <div class="btn-box">
                 <a href="index.html" class="header-btn"><i class="flaticon-calendar"></i>Appointment</a>
@@ -271,7 +271,7 @@
             <div class="close-btn"><i class="fas fa-times"></i></div>
             
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="{{ asset('home/assets/images/logo-2.png')}}" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="index.html"><img src="{{ asset('home/images/logo-2.png')}}" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
                 <div class="contact-info">
                     <h4>Contact Info</h4>
@@ -298,7 +298,7 @@
         <section class="banner-section banner-style-one">
             <div class="banner-carousel owl-theme owl-carousel owl-nav-none">
                 <div class="slide-item">
-                    <div class="image-layer" style="background-image:url({{ asset('home/assets/images/banner/banner-1.jpg')}})"></div>
+                    <div class="image-layer" style="background-image:url({{ asset('home/images/banner/banner-1.jpg')}})"></div>
                     <div class="auto-container">
                         <div class="content-box">
                             <div class="content-inner">
@@ -325,7 +325,7 @@
                     </div>
                 </div>
                 <div class="slide-item">
-                    <div class="image-layer" style="background-image:url({{ asset('home/assets/images/banner/banner-2.jpg')}})"></div>
+                    <div class="image-layer" style="background-image:url({{ asset('home/images/banner/banner-2.jpg')}})"></div>
                     <div class="auto-container">
                         <div class="content-box">
                             <div class="content-inner">
@@ -352,7 +352,7 @@
                     </div>
                 </div>
                 <div class="slide-item">
-                    <div class="image-layer" style="background-image:url({{ asset('home/assets/images/banner/banner-3.jpg')}})"></div>
+                    <div class="image-layer" style="background-image:url({{ asset('home/images/banner/banner-3.jpg')}})"></div>
                     <div class="auto-container">
                         <div class="content-box">
                             <div class="content-inner">
@@ -379,7 +379,7 @@
                     </div>
                 </div>
                 <div class="slide-item">
-                    <div class="image-layer" style="background-image:url({{ asset('home/assets/images/banner/banner-4.jpg')}})"></div>
+                    <div class="image-layer" style="background-image:url({{ asset('home/images/banner/banner-4.jpg')}})"></div>
                     <div class="auto-container">
                         <div class="content-box">
                             <div class="content-inner">
@@ -422,7 +422,7 @@
                                 <div class="shape shape-3 hexagon_shape"></div>
                             </div>
                             <div class="image-inner hexagon_shape">
-                                <figure class="image"><img src="{{ asset('home/assets/images/resource/about-1.jpg')}}" alt=""></figure>
+                                <figure class="image"><img src="{{ asset('home/images/resource/about-1.jpg')}}" alt=""></figure>
                             </div>
                             <div class="text">
                                 <div class="inner">
@@ -481,7 +481,7 @@
                     <div class="service-block-one">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="service-details.html"><img src="{{ asset('home/assets/images/service/service-1.jpg')}}" alt=""></a></figure>
+                                <figure class="image"><a href="service-details.html"><img src="{{ asset('home/images/service/service-1.jpg')}}" alt=""></a></figure>
                                 <div class="icon-box"><i class="flaticon-biochemistry"></i></div>
                             </div>
                             <div class="lower-content">
@@ -493,7 +493,7 @@
                     <div class="service-block-one">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="service-details-2.html"><img src="{{ asset('home/assets/images/service/service-2.jpg')}}" alt=""></a></figure>
+                                <figure class="image"><a href="service-details-2.html"><img src="{{ asset('home/images/service/service-2.jpg')}}" alt=""></a></figure>
                                 <div class="icon-box"><i class="flaticon-microorganism"></i></div>
                             </div>
                             <div class="lower-content">
@@ -505,7 +505,7 @@
                     <div class="service-block-one">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="service-details-3.html"><img src="{{ asset('home/assets/images/service/service-3.jpg')}}" alt=""></a></figure>
+                                <figure class="image"><a href="service-details-3.html"><img src="{{ asset('home/images/service/service-3.jpg')}}" alt=""></a></figure>
                                 <div class="icon-box"><i class="flaticon-skin"></i></div>
                             </div>
                             <div class="lower-content">
@@ -522,10 +522,10 @@
 
         <!-- industries-section end -->
         <section class="industries-section sec-pad">
-            <div class="pattern-layer" style="background-image: url({{ asset('home/assets/images/shape/shape-3.png')}});"></div>
+            <div class="pattern-layer" style="background-image: url({{ asset('home/images/shape/shape-3.png')}});"></div>
             <div class="auto-container">
                 <div class="inner-container">
-                    <div class="bg-layer" style="background-image: url({{ asset('home/assets/images/background/industries-bg.jpg')}});"></div>
+                    <div class="bg-layer" style="background-image: url({{ asset('home/images/background/industries-bg.jpg')}});"></div>
                     <div class="content-box">
                         <div class="shape-box">
                             <div class="shape shape-1 hexagon_shape"></div>
@@ -618,7 +618,7 @@
 
         <!-- testing-section -->
         <section class="testing-section">
-            <div class="bg-layer" style="background-image: url({{ asset('home/assets/images/background/testing-bg.jpg')}});"></div>
+            <div class="bg-layer" style="background-image: url({{ asset('home/images/background/testing-bg.jpg')}});"></div>
             <div class="auto-container">
                 <div class="testing-tab">
                     <div class="row clearfix">
@@ -849,9 +849,9 @@
                 <div class="row align-items-center clearfix">
                     <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                         <div class="image-box">
-                            <div class="head-image"><img src="{{ asset('home/assets/images/resource/men-head-1.png')}}" alt=""></div>
-                            <figure class="image"><img src="{{ asset('home/assets/images/resource/excellence-1.png')}}" alt=""></figure>
-                            <div class="shape" style="background-image: url({{ asset('home/assets/images/shape/shape-6.png')}});"></div>
+                            <div class="head-image"><img src="{{ asset('home/images/resource/men-head-1.png')}}" alt=""></div>
+                            <figure class="image"><img src="{{ asset('home/images/resource/excellence-1.png')}}" alt=""></figure>
+                            <div class="shape" style="background-image: url({{ asset('home/images/shape/shape-6.png')}});"></div>
                             <div class="inner-box">
                                 <div class="piechart"  data-fg-color="#10b1b4" data-value=".30">
                                     <span>.30</span>
@@ -896,7 +896,7 @@
 
         <!-- funfact-section -->
         <section class="funfact-section centred">
-            <div class="bg-layer" style="background-image: url({{ asset('home/assets/images/background/funfact-bg.jpg')}});"></div>
+            <div class="bg-layer" style="background-image: url({{ asset('home/images/background/funfact-bg.jpg')}});"></div>
             <div class="auto-container">
                 <div class="sec-title light">
                     <span class="sub-title">Interesting Numbers</span>
@@ -968,7 +968,7 @@
                                     <div class="project-block-one">
                                         <div class="inner-box">
                                             <div class="static-content">
-                                                <figure class="image-box"><img src="{{ asset('home/assets/images/project/project-1.jpg')}}" alt=""></figure>
+                                                <figure class="image-box"><img src="{{ asset('home/images/project/project-1.jpg')}}" alt=""></figure>
                                                 <div class="lower-content">
                                                     <span class="category">Microbiology</span>
                                                     <h3><a href="index.html">Laboratory Medicine and Patient Care</a></h3>
@@ -976,8 +976,8 @@
                                             </div>
                                             <div class="overlay-content">
                                                 <div class="image-box">
-                                                    <figure class="image"><img src="{{ asset('home/assets/images/project/project-4.jpg')}}" alt=""></figure>
-                                                    <div class="view-btn"><a href="{{ asset('home/assets/images/project/project-1.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
+                                                    <figure class="image"><img src="{{ asset('home/images/project/project-4.jpg')}}" alt=""></figure>
+                                                    <div class="view-btn"><a href="{{ asset('home/images/project/project-1.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
                                                     <div class="link-btn"><a href="index.html"><i class="flaticon-right-arrow"></i></a></div>
                                                 </div>
                                                 <div class="lower-content">
@@ -993,7 +993,7 @@
                                     <div class="project-block-one">
                                         <div class="inner-box">
                                             <div class="static-content">
-                                                <figure class="image-box"><img src="{{ asset('home/assets/images/project/project-2.jpg')}}" alt=""></figure>
+                                                <figure class="image-box"><img src="{{ asset('home/images/project/project-2.jpg')}}" alt=""></figure>
                                                 <div class="lower-content">
                                                     <span class="category">Serology</span>
                                                     <h3><a href="index.html">Clinical Trial Design Best Practices</a></h3>
@@ -1001,8 +1001,8 @@
                                             </div>
                                             <div class="overlay-content">
                                                 <div class="image-box">
-                                                    <figure class="image"><img src="{{ asset('home/assets/images/project/project-5.jpg')}}" alt=""></figure>
-                                                    <div class="view-btn"><a href="{{ asset('home/assets/images/project/project-2.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
+                                                    <figure class="image"><img src="{{ asset('home/images/project/project-5.jpg')}}" alt=""></figure>
+                                                    <div class="view-btn"><a href="{{ asset('home/images/project/project-2.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
                                                     <div class="link-btn"><a href="index.html"><i class="flaticon-right-arrow"></i></a></div>
                                                 </div>
                                                 <div class="lower-content">
@@ -1018,7 +1018,7 @@
                                     <div class="project-block-one">
                                         <div class="inner-box">
                                             <div class="static-content">
-                                                <figure class="image-box"><img src="{{ asset('home/assets/images/project/project-3.jpg')}}" alt=""></figure>
+                                                <figure class="image-box"><img src="{{ asset('home/images/project/project-3.jpg')}}" alt=""></figure>
                                                 <div class="lower-content">
                                                     <span class="category">Biochemistry</span>
                                                     <h3><a href="index.html">How to Navigate Challenges to Success</a></h3>
@@ -1026,8 +1026,8 @@
                                             </div>
                                             <div class="overlay-content">
                                                 <div class="image-box">
-                                                    <figure class="image"><img src="{{ asset('home/assets/images/project/project-6.jpg')}}" alt=""></figure>
-                                                    <div class="view-btn"><a href="{{ asset('home/assets/images/project/project-3.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
+                                                    <figure class="image"><img src="{{ asset('home/images/project/project-6.jpg')}}" alt=""></figure>
+                                                    <div class="view-btn"><a href="{{ asset('home/images/project/project-3.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
                                                     <div class="link-btn"><a href="index.html"><i class="flaticon-right-arrow"></i></a></div>
                                                 </div>
                                                 <div class="lower-content">
@@ -1047,7 +1047,7 @@
                                     <div class="project-block-one">
                                         <div class="inner-box">
                                             <div class="static-content">
-                                                <figure class="image-box"><img src="{{ asset('home/assets/images/project/project-2.jpg')}}" alt=""></figure>
+                                                <figure class="image-box"><img src="{{ asset('home/images/project/project-2.jpg')}}" alt=""></figure>
                                                 <div class="lower-content">
                                                     <span class="category">Hematology</span>
                                                     <h3><a href="index.html">Clinical Trial Design Best Practices</a></h3>
@@ -1055,8 +1055,8 @@
                                             </div>
                                             <div class="overlay-content">
                                                 <div class="image-box">
-                                                    <figure class="image"><img src="{{ asset('home/assets/images/project/project-5.jpg')}}" alt=""></figure>
-                                                    <div class="view-btn"><a href="{{ asset('home/assets/images/project/project-2.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
+                                                    <figure class="image"><img src="{{ asset('home/images/project/project-5.jpg')}}" alt=""></figure>
+                                                    <div class="view-btn"><a href="{{ asset('home/images/project/project-2.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
                                                     <div class="link-btn"><a href="index.html"><i class="flaticon-right-arrow"></i></a></div>
                                                 </div>
                                                 <div class="lower-content">
@@ -1072,7 +1072,7 @@
                                     <div class="project-block-one">
                                         <div class="inner-box">
                                             <div class="static-content">
-                                                <figure class="image-box"><img src="{{ asset('home/assets/images/project/project-1.jpg')}}" alt=""></figure>
+                                                <figure class="image-box"><img src="{{ asset('home/images/project/project-1.jpg')}}" alt=""></figure>
                                                 <div class="lower-content">
                                                     <span class="category">Hematology</span>
                                                     <h3><a href="index.html">Laboratory Medicine and Patient Care</a></h3>
@@ -1080,8 +1080,8 @@
                                             </div>
                                             <div class="overlay-content">
                                                 <div class="image-box">
-                                                    <figure class="image"><img src="{{ asset('home/assets/images/project/project-4.jpg')}}" alt=""></figure>
-                                                    <div class="view-btn"><a href="{{ asset('home/assets/images/project/project-1.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
+                                                    <figure class="image"><img src="{{ asset('home/images/project/project-4.jpg')}}" alt=""></figure>
+                                                    <div class="view-btn"><a href="{{ asset('home/images/project/project-1.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
                                                     <div class="link-btn"><a href="index.html"><i class="flaticon-right-arrow"></i></a></div>
                                                 </div>
                                                 <div class="lower-content">
@@ -1097,7 +1097,7 @@
                                     <div class="project-block-one">
                                         <div class="inner-box">
                                             <div class="static-content">
-                                                <figure class="image-box"><img src="{{ asset('home/assets/images/project/project-3.jpg')}}" alt=""></figure>
+                                                <figure class="image-box"><img src="{{ asset('home/images/project/project-3.jpg')}}" alt=""></figure>
                                                 <div class="lower-content">
                                                     <span class="category">Hematology</span>
                                                     <h3><a href="index.html">How to Navigate Challenges to Success</a></h3>
@@ -1105,8 +1105,8 @@
                                             </div>
                                             <div class="overlay-content">
                                                 <div class="image-box">
-                                                    <figure class="image"><img src="{{ asset('home/assets/images/project/project-6.jpg')}}" alt=""></figure>
-                                                    <div class="view-btn"><a href="{{ asset('home/assets/images/project/project-3.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
+                                                    <figure class="image"><img src="{{ asset('home/images/project/project-6.jpg')}}" alt=""></figure>
+                                                    <div class="view-btn"><a href="{{ asset('home/images/project/project-3.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
                                                     <div class="link-btn"><a href="index.html"><i class="flaticon-right-arrow"></i></a></div>
                                                 </div>
                                                 <div class="lower-content">
@@ -1126,7 +1126,7 @@
                                     <div class="project-block-one">
                                         <div class="inner-box">
                                             <div class="static-content">
-                                                <figure class="image-box"><img src="{{ asset('home/assets/images/project/project-3.jpg')}}" alt=""></figure>
+                                                <figure class="image-box"><img src="{{ asset('home/images/project/project-3.jpg')}}" alt=""></figure>
                                                 <div class="lower-content">
                                                     <span class="category">Biochemistry</span>
                                                     <h3><a href="index.html">How to Navigate Challenges to Success</a></h3>
@@ -1134,8 +1134,8 @@
                                             </div>
                                             <div class="overlay-content">
                                                 <div class="image-box">
-                                                    <figure class="image"><img src="{{ asset('home/assets/images/project/project-6.jpg')}}" alt=""></figure>
-                                                    <div class="view-btn"><a href="{{ asset('home/assets/images/project/project-3.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
+                                                    <figure class="image"><img src="{{ asset('home/images/project/project-6.jpg')}}" alt=""></figure>
+                                                    <div class="view-btn"><a href="{{ asset('home/images/project/project-3.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
                                                     <div class="link-btn"><a href="index.html"><i class="flaticon-right-arrow"></i></a></div>
                                                 </div>
                                                 <div class="lower-content">
@@ -1151,7 +1151,7 @@
                                     <div class="project-block-one">
                                         <div class="inner-box">
                                             <div class="static-content">
-                                                <figure class="image-box"><img src="{{ asset('home/assets/images/project/project-2.jpg')}}" alt=""></figure>
+                                                <figure class="image-box"><img src="{{ asset('home/images/project/project-2.jpg')}}" alt=""></figure>
                                                 <div class="lower-content">
                                                     <span class="category">Biochemistry</span>
                                                     <h3><a href="index.html">Clinical Trial Design Best Practices</a></h3>
@@ -1159,8 +1159,8 @@
                                             </div>
                                             <div class="overlay-content">
                                                 <div class="image-box">
-                                                    <figure class="image"><img src="{{ asset('home/assets/images/project/project-5.jpg')}}" alt=""></figure>
-                                                    <div class="view-btn"><a href="{{ asset('home/assets/images/project/project-2.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
+                                                    <figure class="image"><img src="{{ asset('home/images/project/project-5.jpg')}}" alt=""></figure>
+                                                    <div class="view-btn"><a href="{{ asset('home/images/project/project-2.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
                                                     <div class="link-btn"><a href="index.html"><i class="flaticon-right-arrow"></i></a></div>
                                                 </div>
                                                 <div class="lower-content">
@@ -1176,7 +1176,7 @@
                                     <div class="project-block-one">
                                         <div class="inner-box">
                                             <div class="static-content">
-                                                <figure class="image-box"><img src="{{ asset('home/assets/images/project/project-1.jpg')}}" alt=""></figure>
+                                                <figure class="image-box"><img src="{{ asset('home/images/project/project-1.jpg')}}" alt=""></figure>
                                                 <div class="lower-content">
                                                     <span class="category">Biochemistry</span>
                                                     <h3><a href="index.html">Laboratory Medicine and Patient Care</a></h3>
@@ -1184,8 +1184,8 @@
                                             </div>
                                             <div class="overlay-content">
                                                 <div class="image-box">
-                                                    <figure class="image"><img src="{{ asset('home/assets/images/project/project-4.jpg')}}" alt=""></figure>
-                                                    <div class="view-btn"><a href="{{ asset('home/assets/images/project/project-1.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
+                                                    <figure class="image"><img src="{{ asset('home/images/project/project-4.jpg')}}" alt=""></figure>
+                                                    <div class="view-btn"><a href="{{ asset('home/images/project/project-1.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
                                                     <div class="link-btn"><a href="index.html"><i class="flaticon-right-arrow"></i></a></div>
                                                 </div>
                                                 <div class="lower-content">
@@ -1205,7 +1205,7 @@
                                     <div class="project-block-one">
                                         <div class="inner-box">
                                             <div class="static-content">
-                                                <figure class="image-box"><img src="{{ asset('home/assets/images/project/project-1.jpg')}}" alt=""></figure>
+                                                <figure class="image-box"><img src="{{ asset('home/images/project/project-1.jpg')}}" alt=""></figure>
                                                 <div class="lower-content">
                                                     <span class="category">Serology</span>
                                                     <h3><a href="index.html">Laboratory Medicine and Patient Care</a></h3>
@@ -1213,8 +1213,8 @@
                                             </div>
                                             <div class="overlay-content">
                                                 <div class="image-box">
-                                                    <figure class="image"><img src="{{ asset('home/assets/images/project/project-4.jpg')}}" alt=""></figure>
-                                                    <div class="view-btn"><a href="{{ asset('home/assets/images/project/project-1.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
+                                                    <figure class="image"><img src="{{ asset('home/images/project/project-4.jpg')}}" alt=""></figure>
+                                                    <div class="view-btn"><a href="{{ asset('home/images/project/project-1.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
                                                     <div class="link-btn"><a href="index.html"><i class="flaticon-right-arrow"></i></a></div>
                                                 </div>
                                                 <div class="lower-content">
@@ -1230,7 +1230,7 @@
                                     <div class="project-block-one">
                                         <div class="inner-box">
                                             <div class="static-content">
-                                                <figure class="image-box"><img src="{{ asset('home/assets/images/project/project-2.jpg')}}" alt=""></figure>
+                                                <figure class="image-box"><img src="{{ asset('home/images/project/project-2.jpg')}}" alt=""></figure>
                                                 <div class="lower-content">
                                                     <span class="category">Serology</span>
                                                     <h3><a href="index.html">Clinical Trial Design Best Practices</a></h3>
@@ -1238,8 +1238,8 @@
                                             </div>
                                             <div class="overlay-content">
                                                 <div class="image-box">
-                                                    <figure class="image"><img src="{{ asset('home/assets/images/project/project-5.jpg')}}" alt=""></figure>
-                                                    <div class="view-btn"><a href="{{ asset('home/assets/images/project/project-2.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
+                                                    <figure class="image"><img src="{{ asset('home/images/project/project-5.jpg')}}" alt=""></figure>
+                                                    <div class="view-btn"><a href="{{ asset('home/images/project/project-2.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
                                                     <div class="link-btn"><a href="index.html"><i class="flaticon-right-arrow"></i></a></div>
                                                 </div>
                                                 <div class="lower-content">
@@ -1255,7 +1255,7 @@
                                     <div class="project-block-one">
                                         <div class="inner-box">
                                             <div class="static-content">
-                                                <figure class="image-box"><img src="{{ asset('home/assets/images/project/project-3.jpg')}}" alt=""></figure>
+                                                <figure class="image-box"><img src="{{ asset('home/images/project/project-3.jpg')}}" alt=""></figure>
                                                 <div class="lower-content">
                                                     <span class="category">Serology</span>
                                                     <h3><a href="index.html">How to Navigate Challenges to Success</a></h3>
@@ -1263,8 +1263,8 @@
                                             </div>
                                             <div class="overlay-content">
                                                 <div class="image-box">
-                                                    <figure class="image"><img src="{{ asset('home/assets/images/project/project-6.jpg')}}" alt=""></figure>
-                                                    <div class="view-btn"><a href="{{ asset('home/assets/images/project/project-3.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
+                                                    <figure class="image"><img src="{{ asset('home/images/project/project-6.jpg')}}" alt=""></figure>
+                                                    <div class="view-btn"><a href="{{ asset('home/images/project/project-3.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
                                                     <div class="link-btn"><a href="index.html"><i class="flaticon-right-arrow"></i></a></div>
                                                 </div>
                                                 <div class="lower-content">
@@ -1284,7 +1284,7 @@
                                     <div class="project-block-one">
                                         <div class="inner-box">
                                             <div class="static-content">
-                                                <figure class="image-box"><img src="{{ asset('home/assets/images/project/project-2.jpg')}}" alt=""></figure>
+                                                <figure class="image-box"><img src="{{ asset('home/images/project/project-2.jpg')}}" alt=""></figure>
                                                 <div class="lower-content">
                                                     <span class="category">Pathology</span>
                                                     <h3><a href="index.html">Clinical Trial Design Best Practices</a></h3>
@@ -1292,8 +1292,8 @@
                                             </div>
                                             <div class="overlay-content">
                                                 <div class="image-box">
-                                                    <figure class="image"><img src="{{ asset('home/assets/images/project/project-5.jpg')}}" alt=""></figure>
-                                                    <div class="view-btn"><a href="{{ asset('home/assets/images/project/project-2.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
+                                                    <figure class="image"><img src="{{ asset('home/images/project/project-5.jpg')}}" alt=""></figure>
+                                                    <div class="view-btn"><a href="{{ asset('home/images/project/project-2.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
                                                     <div class="link-btn"><a href="index.html"><i class="flaticon-right-arrow"></i></a></div>
                                                 </div>
                                                 <div class="lower-content">
@@ -1309,7 +1309,7 @@
                                     <div class="project-block-one">
                                         <div class="inner-box">
                                             <div class="static-content">
-                                                <figure class="image-box"><img src="{{ asset('home/assets/images/project/project-1.jpg')}}" alt=""></figure>
+                                                <figure class="image-box"><img src="{{ asset('home/images/project/project-1.jpg')}}" alt=""></figure>
                                                 <div class="lower-content">
                                                     <span class="category">Pathology</span>
                                                     <h3><a href="index.html">Laboratory Medicine and Patient Care</a></h3>
@@ -1317,8 +1317,8 @@
                                             </div>
                                             <div class="overlay-content">
                                                 <div class="image-box">
-                                                    <figure class="image"><img src="{{ asset('home/assets/images/project/project-4.jpg')}}" alt=""></figure>
-                                                    <div class="view-btn"><a href="{{ asset('home/assets/images/project/project-1.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
+                                                    <figure class="image"><img src="{{ asset('home/images/project/project-4.jpg')}}" alt=""></figure>
+                                                    <div class="view-btn"><a href="{{ asset('home/images/project/project-1.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
                                                     <div class="link-btn"><a href="index.html"><i class="flaticon-right-arrow"></i></a></div>
                                                 </div>
                                                 <div class="lower-content">
@@ -1334,7 +1334,7 @@
                                     <div class="project-block-one">
                                         <div class="inner-box">
                                             <div class="static-content">
-                                                <figure class="image-box"><img src="{{ asset('home/assets/images/project/project-3.jpg')}}" alt=""></figure>
+                                                <figure class="image-box"><img src="{{ asset('home/images/project/project-3.jpg')}}" alt=""></figure>
                                                 <div class="lower-content">
                                                     <span class="category">Pathology</span>
                                                     <h3><a href="index.html">How to Navigate Challenges to Success</a></h3>
@@ -1342,8 +1342,8 @@
                                             </div>
                                             <div class="overlay-content">
                                                 <div class="image-box">
-                                                    <figure class="image"><img src="{{ asset('home/assets/images/project/project-6.jpg')}}" alt=""></figure>
-                                                    <div class="view-btn"><a href="{{ asset('home/assets/images/project/project-3.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
+                                                    <figure class="image"><img src="{{ asset('home/images/project/project-6.jpg')}}" alt=""></figure>
+                                                    <div class="view-btn"><a href="{{ asset('home/images/project/project-3.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
                                                     <div class="link-btn"><a href="index.html"><i class="flaticon-right-arrow"></i></a></div>
                                                 </div>
                                                 <div class="lower-content">
@@ -1363,7 +1363,7 @@
                                     <div class="project-block-one">
                                         <div class="inner-box">
                                             <div class="static-content">
-                                                <figure class="image-box"><img src="{{ asset('home/assets/images/project/project-3.jpg')}}" alt=""></figure>
+                                                <figure class="image-box"><img src="{{ asset('home/images/project/project-3.jpg')}}" alt=""></figure>
                                                 <div class="lower-content">
                                                     <span class="category">Microbiology</span>
                                                     <h3><a href="index.html">How to Navigate Challenges to Success</a></h3>
@@ -1371,8 +1371,8 @@
                                             </div>
                                             <div class="overlay-content">
                                                 <div class="image-box">
-                                                    <figure class="image"><img src="{{ asset('home/assets/images/project/project-6.jpg')}}" alt=""></figure>
-                                                    <div class="view-btn"><a href="{{ asset('home/assets/images/project/project-3.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
+                                                    <figure class="image"><img src="{{ asset('home/images/project/project-6.jpg')}}" alt=""></figure>
+                                                    <div class="view-btn"><a href="{{ asset('home/images/project/project-3.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
                                                     <div class="link-btn"><a href="index.html"><i class="flaticon-right-arrow"></i></a></div>
                                                 </div>
                                                 <div class="lower-content">
@@ -1388,7 +1388,7 @@
                                     <div class="project-block-one">
                                         <div class="inner-box">
                                             <div class="static-content">
-                                                <figure class="image-box"><img src="{{ asset('home/assets/images/project/project-2.jpg')}}" alt=""></figure>
+                                                <figure class="image-box"><img src="{{ asset('home/images/project/project-2.jpg')}}" alt=""></figure>
                                                 <div class="lower-content">
                                                     <span class="category">Microbiology</span>
                                                     <h3><a href="index.html">Clinical Trial Design Best Practices</a></h3>
@@ -1396,8 +1396,8 @@
                                             </div>
                                             <div class="overlay-content">
                                                 <div class="image-box">
-                                                    <figure class="image"><img src="{{ asset('home/assets/images/project/project-5.jpg')}}" alt=""></figure>
-                                                    <div class="view-btn"><a href="{{ asset('home/assets/images/project/project-2.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
+                                                    <figure class="image"><img src="{{ asset('home/images/project/project-5.jpg')}}" alt=""></figure>
+                                                    <div class="view-btn"><a href="{{ asset('home/images/project/project-2.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
                                                     <div class="link-btn"><a href="index.html"><i class="flaticon-right-arrow"></i></a></div>
                                                 </div>
                                                 <div class="lower-content">
@@ -1413,7 +1413,7 @@
                                     <div class="project-block-one">
                                         <div class="inner-box">
                                             <div class="static-content">
-                                                <figure class="image-box"><img src="{{ asset('home/assets/images/project/project-1.jpg')}}" alt=""></figure>
+                                                <figure class="image-box"><img src="{{ asset('home/images/project/project-1.jpg')}}" alt=""></figure>
                                                 <div class="lower-content">
                                                     <span class="category">Microbiology</span>
                                                     <h3><a href="index.html">Laboratory Medicine and Patient Care</a></h3>
@@ -1421,8 +1421,8 @@
                                             </div>
                                             <div class="overlay-content">
                                                 <div class="image-box">
-                                                    <figure class="image"><img src="{{ asset('home/assets/images/project/project-4.jpg')}}" alt=""></figure>
-                                                    <div class="view-btn"><a href="{{ asset('home/assets/images/project/project-1.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
+                                                    <figure class="image"><img src="{{ asset('home/images/project/project-4.jpg')}}" alt=""></figure>
+                                                    <div class="view-btn"><a href="{{ asset('home/images/project/project-1.jpg')}}" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div>
                                                     <div class="link-btn"><a href="index.html"><i class="flaticon-right-arrow"></i></a></div>
                                                 </div>
                                                 <div class="lower-content">
@@ -1453,7 +1453,7 @@
                 <div class="row clearfix">
                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
                         <div class="pricing-table-one">
-                            <div class="table-header" style="background-image: url({{ asset('home/assets/images/resource/table-1.jpg')}});">
+                            <div class="table-header" style="background-image: url({{ asset('home/images/resource/table-1.jpg')}});">
                                 <h3>Biogenix Basic</h3>
                                 <h2>$129.00<span>/ Person</span></h2>
                             </div>
@@ -1523,7 +1523,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
                         <div class="pricing-table-one active-block">
-                            <div class="table-header" style="background-image: url({{ asset('home/assets/images/resource/table-2.jpg')}});">
+                            <div class="table-header" style="background-image: url({{ asset('home/images/resource/table-2.jpg')}});">
                                 <div class="icon-box"><i class="flaticon-premium"></i></div>
                                 <h3>Biogenix Premium</h3>
                                 <h2>$159.00<span>/ Person</span></h2>
@@ -1597,7 +1597,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
                         <div class="pricing-table-one">
-                            <div class="table-header" style="background-image: url({{ asset('home/assets/images/resource/table-3.jpg')}});">
+                            <div class="table-header" style="background-image: url({{ asset('home/images/resource/table-3.jpg')}});">
                                 <h3>Biogenix Standard</h3>
                                 <h2>$149.00<span>/ Person</span></h2>
                             </div>
@@ -1684,7 +1684,7 @@
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><img src="{{ asset('home/assets/images/news/news-1.jpg')}}" alt=""></figure>
+                                    <figure class="image"><img src="{{ asset('home/images/news/news-1.jpg')}}" alt=""></figure>
                                     <div class="link-btn"><a href="blog-details.html"><i class="flaticon-zoom-in"></i></a></div>
                                 </div>
                                 <div class="lower-content">
@@ -1713,7 +1713,7 @@
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><img src="{{ asset('home/assets/images/news/news-2.jpg')}}" alt=""></figure>
+                                    <figure class="image"><img src="{{ asset('home/images/news/news-2.jpg')}}" alt=""></figure>
                                     <div class="link-btn"><a href="blog-details.html"><i class="flaticon-zoom-in"></i></a></div>
                                 </div>
                                 <div class="lower-content">
@@ -1742,7 +1742,7 @@
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><img src="{{ asset('home/assets/images/news/news-3.jpg')}}" alt=""></figure>
+                                    <figure class="image"><img src="{{ asset('home/images/news/news-3.jpg')}}" alt=""></figure>
                                     <div class="link-btn"><a href="blog-details.html"><i class="flaticon-zoom-in"></i></a></div>
                                 </div>
                                 <div class="lower-content">
@@ -1775,17 +1775,17 @@
 
         <!-- booking-section -->
         <section class="booking-section sec-pad">
-            <div class="bg-layer" style="background-image: url({{ asset('home/assets/images/background/booking-bg.jpg')}});"></div>
+            <div class="bg-layer" style="background-image: url({{ asset('home/images/background/booking-bg.jpg')}});"></div>
             <div class="pattern-layer">
-                <div class="pattern-1" style="background-image: url({{ asset('home/assets/images/shape/shape-7.png')}});"></div>
-                <div class="pattern-2" style="background-image: url({{ asset('home/assets/images/shape/shape-8.png')}});"></div>
+                <div class="pattern-1" style="background-image: url({{ asset('home/images/shape/shape-7.png')}});"></div>
+                <div class="pattern-2" style="background-image: url({{ asset('home/images/shape/shape-8.png')}});"></div>
             </div>
             <div class="auto-container">
                 <div class="row clearfix">
                     <div class="col-lg-8 col-md-12 col-sm-12 content-column">
                         <div class="content-box">
                             <span class="rotate-text">Free Booking</span>
-                            <div class="shape" style="background-image: url({{ asset('home/assets/images/shape/shape-9.png')}});"></div>
+                            <div class="shape" style="background-image: url({{ asset('home/images/shape/shape-9.png')}});"></div>
                             <div class="sec-title light">
                                 <span class="sub-title">Book Your Test</span>
                                 <h2>Health checkup packages online with Biogenix</h2>
@@ -1856,7 +1856,7 @@
 
         <!-- locations-section -->
         <section class="locations-section sec-pad centred">
-            <div class="pattern-layer" style="background-image: url({{ asset('home/assets/images/shape/shape-10.png')}});"></div>
+            <div class="pattern-layer" style="background-image: url({{ asset('home/images/shape/shape-10.png')}});"></div>
             <div class="auto-container">
                 <div class="sec-title">
                     <span class="sub-title">Locations</span>
@@ -1878,7 +1878,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-12 location-block">
                         <div class="location-block-one">
                             <div class="inner-box">
-                                <figure class="image-box"><img src="{{ asset('home/assets/images/resource/location-1.jpg')}}" alt=""></figure>
+                                <figure class="image-box"><img src="{{ asset('home/images/resource/location-1.jpg')}}" alt=""></figure>
                                 <h6>United States</h6>
                                 <h3>Rochester, Newyork</h3>
                                 <p>145 Elmgrove Park Rochester, NY 14624, USA<br /> <a href="tel:18664050400">+1 866 405 0400</a></p>
@@ -1889,7 +1889,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-12 location-block">
                         <div class="location-block-one">
                             <div class="inner-box">
-                                <figure class="image-box"><img src="{{ asset('home/assets/images/resource/location-2.jpg')}}" alt=""></figure>
+                                <figure class="image-box"><img src="{{ asset('home/images/resource/location-2.jpg')}}" alt=""></figure>
                                 <h6>United States</h6>
                                 <h3>New Rochelle, Newyork</h3>
                                 <p>128 Golden Mall New Rochelle, NY 14624, USA <br /><a href="tel:18664050405">+1 866 405 0405</a></p>
@@ -1980,12 +1980,12 @@
                                 </div>
                                 <div class="post-inner">
                                     <div class="post">
-                                        <figure class="post-thumb"><a href="blog-details.html"><img src="{{ asset('home/assets/images/resource/footer-post-1.jpg')}}" alt=""></a></figure>
+                                        <figure class="post-thumb"><a href="blog-details.html"><img src="{{ asset('home/images/resource/footer-post-1.jpg')}}" alt=""></a></figure>
                                         <span class="post-date">16 July, 2022</span>
                                         <h5><a href="blog-details.html">All you Need to Know about this Liver Disease</a></h5>
                                     </div>
                                     <div class="post">
-                                        <figure class="post-thumb"><a href="blog-details.html"><img src="{{ asset('home/assets/images/resource/footer-post-2.jpg')}}" alt=""></a></figure>
+                                        <figure class="post-thumb"><a href="blog-details.html"><img src="{{ asset('home/images/resource/footer-post-2.jpg')}}" alt=""></a></figure>
                                         <span class="post-date">11 August, 2022</span>
                                         <h5><a href="blog-details.html">Ensure Your Product Quality with a Biogenix Lab</a></h5>
                                     </div>
@@ -2018,24 +2018,24 @@
 
 
     <!-- jequery plugins -->
-    <script src="{{ asset('home/assets/js/jquery.js')}}"></script>
-    <script src="{{ asset('home/assets/js/popper.min.js')}}"></script>
-    <script src="{{ asset('home/assets/js/bootstrap.min.js')}}"></script>
-    <script src="{{ asset('home/assets/js/owl.js')}}"></script>
-    <script src="{{ asset('home/assets/js/wow.js')}}"></script>
-    <script src="{{ asset('home/assets/js/validation.js')}}"></script>
-    <script src="{{ asset('home/assets/js/jquery.fancybox.js')}}"></script>
-    <script src="{{ asset('home/assets/js/appear.js')}}"></script>
-    <script src="{{ asset('home/assets/js/scrollbar.js')}}"></script>
-    <script src="{{ asset('home/assets/js/isotope.js')}}"></script>
-    <script src="{{ asset('home/assets/js/jquery.nice-select.min.js')}}"></script>
-    <script src="{{ asset('home/assets/js/circle-progress.js')}}"></script>
-    <script src="{{ asset('home/assets/js/jquery.countTo.js')}}"></script>
-    <script src="{{ asset('home/assets/js/jquery-ui.js')}}"></script>
-    <script src="{{ asset('home/assets/js/timePicker.js')}}"></script>
+    <script src="{{ asset('home/js/jquery.js')}}"></script>
+    <script src="{{ asset('home/js/popper.min.js')}}"></script>
+    <script src="{{ asset('home/js/bootstrap.min.js')}}"></script>
+    <script src="{{ asset('home/js/owl.js')}}"></script>
+    <script src="{{ asset('home/js/wow.js')}}"></script>
+    <script src="{{ asset('home/js/validation.js')}}"></script>
+    <script src="{{ asset('home/js/jquery.fancybox.js')}}"></script>
+    <script src="{{ asset('home/js/appear.js')}}"></script>
+    <script src="{{ asset('home/js/scrollbar.js')}}"></script>
+    <script src="{{ asset('home/js/isotope.js')}}"></script>
+    <script src="{{ asset('home/js/jquery.nice-select.min.js')}}"></script>
+    <script src="{{ asset('home/js/circle-progress.js')}}"></script>
+    <script src="{{ asset('home/js/jquery.countTo.js')}}"></script>
+    <script src="{{ asset('home/js/jquery-ui.js')}}"></script>
+    <script src="{{ asset('home/js/timePicker.js')}}"></script>
 
     <!-- main-js -->
-    <script src="{{ asset('home/assets/js/script.js')}}"></script>
+    <script src="{{ asset('home/js/script.js')}}"></script>
 
 </body><!-- End of .page_wrapper -->
 </html>

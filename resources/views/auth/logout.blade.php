@@ -12,25 +12,26 @@
                             <div class="d-flex flex-column h-100">
                                 <div class="mb-4 mb-md-5 text-center">
                                     <a href="{{ url('/') }}" class="d-block auth-logo">
-                                        <img src="{{ asset('lineone/images/logo-sm.svg') }}" alt="" height="28">
-                                        <span class="logo-txt">{{ config('app.name') }}</span>
+                                        <img src="{{ asset('lasepalogo.png') }}" alt="" height="28">
                                     </a>
                                 </div>
                                 <div class="auth-content my-auto">
                                     <div class="text-center">
-                                            <div class="avatar-xl mx-auto">
-                                                <div class="avatar-title bg-light text-primary h1 rounded-circle">
-                                                    <i class="bx bxs-user"></i>
-                                                </div>
+                                        <div class="avatar-xl mx-auto">
+                                            <div class="avatar-title bg-light text-primary h1 rounded-circle">
+                                                <i class="bx bxs-user"></i>
                                             </div>
+                                        </div>
 
-                                            <div class="mt-4 pt-2">
-                                                <h5>You are Logged Out</h5>
-                                                <p class="text-muted font-size-15">Thank you for using <span class="fw-semibold text-dark">{{ config('app.name') }}</span></p>
-                                                <div class="mt-4">
-                                                    <a href="{{route('login')}}" class="btn btn-primary w-100 waves-effect waves-light">Sign In</a>
-                                                </div>
+                                        <div class="mt-4 pt-2">
+                                            <h5>You are Logged Out</h5>
+                                            <p class="text-muted font-size-15">Thank you for using <span
+                                                    class="fw-semibold text-dark">{{ config('app.name') }}</span></p>
+                                            <div class="mt-4">
+                                                <a href="{{ route('login') }}"
+                                                    class="btn btn-primary w-100 waves-effect waves-light">Sign In</a>
                                             </div>
+                                        </div>
                                     </div>
                                     <div class="mt-1 text-center">
                                         <p class="text-muted mb-0">Don't have an account ? <a href="{{ route('register') }}"

@@ -35,21 +35,21 @@
                     <div class="navbar-brand-box">
                         <a href="index.html" class="logo logo-dark">
                             <span class="logo-sm">
-                                <img src="{{ asset('lineone/images/logo-sm.svg') }}" alt="" height="30">
+                                <img src="{{ asset('lasepalogo.png') }}" alt="" height="30">
                             </span>
                             <span class="logo-lg">
-                                <img src="{{ asset('lineone/images/logo-sm.svg') }}" alt="" height="24">
-                                <span class="logo-txt">{{ config('app.name')}}</span>
+                                <img src="{{ asset('lasepalogo.png') }}" alt="" height="24">
+                                <span class="logo-txt">{{ config('app.name') }}</span>
                             </span>
                         </a>
 
                         <a href="index.html" class="logo logo-light">
                             <span class="logo-sm">
-                                <img src="{{ asset('lineone/images/logo-sm.svg') }}" alt="" height="30">
+                                <img src="{{ asset('lasepalogo.png') }}" alt="" height="30">
                             </span>
                             <span class="logo-lg">
-                                <img src="{{ asset('lineone/images/logo-sm.svg') }}" alt="" height="24">
-                                <span class="logo-txt">{{ config('app.name')}}</span>
+                                <img src="{{ asset('lasepalogo.png') }}" alt="" height="24">
+                                <span class="logo-txt">{{ config('app.name') }}</span>
                             </span>
                         </a>
                     </div>
@@ -310,7 +310,7 @@
                         </button>
                         <div class="dropdown-menu dropdown-menu-end">
                             <!-- item-->
-                            <a class="dropdown-item" href="{{route('profile.index')}}"><i
+                            <a class="dropdown-item" href="{{ route('profile.index') }}"><i
                                     class="mdi mdi-face-profile font-size-16 align-middle me-1"></i> Profile</a>
                             <div class="dropdown-divider"></div>
                             <form action="{{ route('logout') }}" method="post">

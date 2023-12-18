@@ -12,8 +12,7 @@
                             <div class="d-flex flex-column h-100">
                                 <div class="mb-4 mb-md-5 text-center">
                                     <a href="{{ url('/') }}" class="d-block auth-logo">
-                                        <img src="{{ asset('lineone/images/logo-sm.svg') }}" alt="" height="28">
-                                        <span class="logo-txt">{{ config('app.name') }}</span>
+                                        <img src="{{ asset('lasepalogo.png') }}" alt="" height="28">
                                     </a>
                                 </div>
                                 <div class="auth-content my-auto">
@@ -39,19 +38,20 @@
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a href="{{ route('register.google')}}"
+                                                <a href=""
                                                     class="social-list-item bg-danger text-white border-danger">
                                                     <i class="mdi mdi-google"></i>
                                                 </a>
                                             </li>
                                         </ul>
                                     </div>
-                                    <form class="mt-4 pt-2" method="post" action="{{ route('register') }}">
+                                    <form class="mt-4 pt-2" method="post" action="">
                                         @csrf
                                         <div class="form-floating form-floating-custom mb-4">
-                                            <input type="text" class="form-control  @error('first_name') is-invalid @enderror"
-                                                value="{{ old('first_name') }}" id="input-first-name" placeholder="Enter First Name"
-                                                name="first_name" required>
+                                            <input type="text"
+                                                class="form-control  @error('first_name') is-invalid @enderror"
+                                                value="{{ old('first_name') }}" id="input-first-name"
+                                                placeholder="Enter First Name" name="first_name" required>
                                             <div class="invalid-feedback">
                                                 Please Enter First Name
                                             </div>
@@ -64,9 +64,10 @@
                                             @enderror
                                         </div>
                                         <div class="form-floating form-floating-custom mb-4">
-                                            <input type="text" class="form-control  @error('last_name') is-invalid @enderror"
-                                                value="{{ old('last_name') }}" id="input-last-name" placeholder="Enter Last Name"
-                                                name="last_name" required>
+                                            <input type="text"
+                                                class="form-control  @error('last_name') is-invalid @enderror"
+                                                value="{{ old('last_name') }}" id="input-last-name"
+                                                placeholder="Enter Last Name" name="last_name" required>
                                             <div class="invalid-feedback">
                                                 Please Enter Last Name
                                             </div>
@@ -79,9 +80,10 @@
                                             @enderror
                                         </div>
                                         <div class="form-floating form-floating-custom mb-4">
-                                            <input type="text" class="form-control  @error('phone_number') is-invalid @enderror"
-                                                value="{{ old('phone_number') }}" id="input-phone" placeholder="Enter Phone Number"
-                                                name="phone_number" required>
+                                            <input type="text"
+                                                class="form-control  @error('phone_number') is-invalid @enderror"
+                                                value="{{ old('phone_number') }}" id="input-phone"
+                                                placeholder="Enter Phone Number" name="phone_number" required>
                                             <div class="invalid-feedback">
                                                 Please Enter Phone Number
                                             </div>
@@ -129,7 +131,8 @@
                                                 id="password-input_confirmation" placeholder="Confirm Password"
                                                 name="password_confirmation">
 
-                                            <button type="button" class="btn btn-link position-absolute h-100 end-0 top-0"
+                                            <button type="button"
+                                                class="btn btn-link position-absolute h-100 end-0 top-0"
                                                 id="password-addon">
                                                 <i class="mdi mdi-eye-outline font-size-18 text-muted"></i>
                                             </button>
@@ -161,9 +164,9 @@
                                         </div>
                                     </form>
 
-                                    
+
                                     <div class="mt-1 text-center">
-                                        <p class="text-muted mb-0">Have an account ? <a href="{{ route('login') }}"
+                                        <p class="text-muted mb-0">Have an account ? <a href=""
                                                 class="text-primary fw-semibold">
                                                 Login </a> </p>
                                     </div>
