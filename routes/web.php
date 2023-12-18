@@ -21,7 +21,7 @@ Route::get('/', function () {
 Route::controller(PagesController::class)->group( function () {
     Route::prefix('user')->as('user.')->group(function () {
 
-        Route::get('/user-dashboard', 'userDashboard')->('dashboard');
+        Route::get('user-dashboard', 'userDashboard')->name('dashboard');
         
     });
 });
