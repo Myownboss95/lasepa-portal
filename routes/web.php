@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PagesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +15,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts.home');
+});
+
+Route::controller(PagesController::class)->group( function () {
+    Route::prefix('user')->as('user.')->group(function () {
+
+        Route::get('/user-dashboard', 'userDashboard')->('dashboard');
+        
+    });
 });
