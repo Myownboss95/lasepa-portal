@@ -1,8 +1,7 @@
 <?php
 
+use App\Models\Sample;
 use App\Models\User;
-use App\Models\Stage;
-use App\Models\Result;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
@@ -14,14 +13,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('samples', function (Blueprint $table) {
+        Schema::create('transactions', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
-            $table->foreignIdFor(Stage::class);
-            $table->unsignedBigInteger('approved_by');
-            $table->unsignedBigInteger('entered_by');
             $table->foreignIdFor(User::class);
-            $table->timestamps(); 
+            $table->foreignIdFor(Sample::class);
+            $table->unsignedBigInteger('amount');
+            $table->string('status');
+            $table->string('reference');
+            $table->timestamps();
         });
     }
 
@@ -30,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('samples');
+        Schema::dropIfExists('transactions');
     }
 };

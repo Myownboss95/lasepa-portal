@@ -5,19 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Sample extends Model
+class Result extends Model
 {
     use HasFactory;
-
     protected $guarded = ['id'];
 
-    public function user()
+    public function sample()
     {
-        return $this->belongsTo(User::class);
-    }
-
-    public function results()
-    {
-        return $this->hasMany(Result::class);
+        return $this->belongsTo(Result::class);
     }
 }
