@@ -45,7 +45,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <form class="mt-4 pt-2" method="post" action="">
+                                    <form class="mt-4 pt-2" method="post" action="{{ route('register') }}">
                                         @csrf
                                         <div class="form-floating form-floating-custom mb-4">
                                             <input type="text"
@@ -159,8 +159,9 @@
 
                                         </div>
                                         <div class="mb-3">
-                                            <a href="{{route('user.dashboard')}}" class="btn btn-primary w-100 waves-effect waves-light"
-                                                type="submit">Sign Up</a>
+                                            <a href="{{ route('user.dashboard') }}"
+                                                class="btn btn-primary w-100 waves-effect waves-light" type="submit">Sign
+                                                Up</a>
                                         </div>
                                     </form>
 

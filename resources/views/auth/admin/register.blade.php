@@ -45,7 +45,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <form class="mt-4 pt-2" method="post" action="">
+                                    <form class="mt-4 pt-2" method="post" action="{{ route('register') }}">
                                         @csrf
                                         <div class="form-floating form-floating-custom mb-4">
                                             <input type="text"

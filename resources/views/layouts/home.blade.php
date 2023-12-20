@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-<title>Biogenix - HTML 5 Template Preview</title>
+<title>{{ config('app.name')}}</title>
 
 <!-- Fav Icon -->
 <link rel="icon" href="{{ asset('home/images/favicon.ico')}}" type="image/x-icon">
@@ -228,7 +228,7 @@
                                 <a href="tel:80045678901">[800] 45 6789 01</a>
                             </li>
                             <li class="user-box">
-                                <a href="index.html"><i class="flaticon-add-user"></i></a>
+                                <a href="{{ route('user.login')}}"><i class="flaticon-add-user"></i></a>
                             </li>
                             <li class="search-box-outer search-toggler">
                                 <i class="flaticon-magnifying-glass"></i>

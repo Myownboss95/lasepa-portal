@@ -16,8 +16,17 @@ class Sample extends Model
         return $this->belongsTo(User::class);
     }
 
+    public function stage()
+    {
+        return $this->belongsTo(Stage::class);
+    }
     public function results()
     {
         return $this->hasMany(Result::class);
+    }
+
+    public function transaction()
+    {
+        return $this->hasMany(Transaction::class);
     }
 }

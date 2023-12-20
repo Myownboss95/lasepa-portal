@@ -1,7 +1,9 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\Auth\UserProfileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,15 +20,19 @@ Route::get('/', function () {
     return view('layouts.home');
 });
 
-Route::controller(PagesController::class)->group( function () {
-    Route::prefix('user')->as('user.')->group(function () {
 
-        Route::get('dashboard', 'userDashboard')->name('dashboard');
-        Route::get('login', 'userLogin')->name('login');
-        Route::get('register', 'userRegister')->name('login');
-        
-    });
-});
 Auth::routes();
+Route::get('/log-out', function (){
+    return view('auth.logout');
+})->name('log-out');
+Route::middleware('auth')->group(function () {
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::post('profile-update', [UserProfileController::class, 'update'])->name('profile.update');
+Route::get('profile', [UserProfileController::class, 'index'])->name('profile.index');
+
+Route::prefix('user')->as('user.')->middleware('can:is_user')->group(fn () => require_once('user.php'));
+Route::prefix('admin')->as('admin.')->middleware('can:is_admin')->group(fn () => require_once('admin.php'));
+Route::prefix('staff')->as('staff.')->middleware('can:is_staff')->group(fn () => require_once('staff.php'));
+Route::prefix('lab')->as('lab.')->middleware('can:is_staff')->group(fn () => require_once('lab.php'));
+
+});

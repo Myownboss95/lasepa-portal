@@ -65,8 +65,8 @@
 
                                         </div>
                                         <div class="mb-3">
-                                            <a href="{{route('user.dashboard')}}" class="btn btn-primary w-100 waves-effect waves-light"
-                                                type="submit">Log In</a>
+                                            <button class="btn btn-primary w-100 waves-effect waves-light"
+                                                type="submit">Log In</button>
                                         </div>
                                     </form>
 
